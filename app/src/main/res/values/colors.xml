@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <!--换肤演示使用的颜色-->
+    <!--白天模式-->
+    <color name="colorBackground_Day">#ffffff</color>
+    <color name="colorText_Day">#000000</color>
+
+    <!--白天模式-->
+    <color name="colorText_Night">#ffffff</color>
+    <color name="colorBackground_Night">#000000</color>
+
+</resources>
