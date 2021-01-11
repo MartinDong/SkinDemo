@@ -20,9 +20,6 @@ public class SkinCompatViewInflater {
     public final View createView(View parent, final String name, Context context, AttributeSet attrs) {
         Log.d(TAG, ".......createView.......");
         View view = null;
-        if (name.contains(".")) {
-            return null;
-        }
         switch (name) {
             case "TextView":
                 view = new SkinCompatTextView(context, attrs);

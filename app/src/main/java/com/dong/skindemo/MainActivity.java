@@ -29,7 +29,8 @@ public class MainActivity extends Activity {
         // 创建布局管理器
         mSkinChangeFactoryDelegate = SkinChangeFactoryDelegate.create(this);
         // 获取原始的布局管理器
-        LayoutInflater layoutInflater = LayoutInflater.from(this);
+//        LayoutInflater layoutInflater = LayoutInflater.from(this);
+        LayoutInflater layoutInflater = getLayoutInflater();
         // 设置新的布局管理器
         LayoutInflaterCompat.setFactory2(layoutInflater, mSkinChangeFactoryDelegate);
 
